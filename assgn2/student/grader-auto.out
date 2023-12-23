@@ -1,0 +1,48 @@
+{'extraCredit': 0,
+ 'fatalError': False,
+ 'maxExtraCredit': 0,
+ 'maxTotalPoints': 3,
+ 'messages': [],
+ 'mode': 'auto',
+ 'parts': [{'description': 'Basic test for succAndProbReward() that covers '
+                           'several edge cases.',
+            'extraCredit': False,
+            'maxPoints': 3,
+            'maxSeconds': 5,
+            'messages': [],
+            'name': '1a-1-basic',
+            'points': 3,
+            'seconds': 0},
+           {'description': 'Hidden test for ValueIteration. Run ValueIteration '
+                           'on BlackjackMDP, then test if V[startState] is '
+                           'correct.',
+            'extraCredit': False,
+            'maxPoints': 2,
+            'maxSeconds': 5,
+            'messages': [],
+            'name': '1a-2-hidden',
+            'points': 0,
+            'seconds': 0},
+           {'description': 'Hidden test for ValueIterationDP. Run '
+                           'ValueIterationDP on BlackjackMDP, then test if '
+                           'V[startState] is correct and ValueIterationDP is '
+                           'faster than ValueIteration.',
+            'extraCredit': False,
+            'maxPoints': 3,
+            'maxSeconds': 5,
+            'messages': [],
+            'name': '1b-1-hidden',
+            'points': 3,
+            'seconds': 1},
+           {'description': 'Hidden test for ValueIterationDP. Run '
+                           'ValueIterationDP on BlackjackMDP, then test if '
+                           'V[startState] is correct and ValueIterationDP is '
+                           'faster than ValueIteration.',
+            'extraCredit': False,
+            'maxPoints': 2,
+            'maxSeconds': 5,
+            'messages': [],
+            'name': '1b-2-hidden',
+            'points': 2,
+            'seconds': 1}],
+ 'totalPoints': 3}
